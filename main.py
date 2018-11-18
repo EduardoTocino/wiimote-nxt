@@ -1,6 +1,10 @@
 #import cwiid
 import nxt.locator
 from nxt.motor import *
+<<<<<<< HEAD
+=======
+import time
+>>>>>>> 0f956f51b496154c3dd7a089c70f6c631a441e46
 
 class NXT:
     def __init__(self):
@@ -17,3 +21,9 @@ class NXT:
         self.m_right.brake()
 
 robot = NXT()
+<<<<<<< HEAD
+=======
+robot.go()
+time.sleep(1)
+robot.stop()
+>>>>>>> 0f956f51b496154c3dd7a089c70f6c631a441e46
